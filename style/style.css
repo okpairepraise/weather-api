@@ -632,9 +632,19 @@ body {
   }
 }
 
-@media (max-width:480px){
-  
-.search-btn {
-  display: none;
+@media (max-width: 480px) {
+  .search-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .main-card,
+  .datetime-card {
+    padding: 1.5rem;
+    width: 99%;
+  }
+.stat-card {
+    padding: 1rem;
 }
 }
